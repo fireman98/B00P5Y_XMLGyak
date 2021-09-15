@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<könyvek>
+    <könyv ikod="2">
+        <cím> XML alapok </cím>
+        <ev> 2003 </ev>
+        <olvasoterem />
+    </könyv>
+</könyvek>
