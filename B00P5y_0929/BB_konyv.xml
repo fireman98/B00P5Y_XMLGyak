@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE konyvek SYSTEM "BB_konyv.dtd">
+
+<konyvek>
+    <konyv id="k01">
+        <cim>
+         Refactoring        
+         </cim>
+        <ev>2018</ev>
+        <kiado>Addison-Wesley Professional</kiado>
+        <szerzok>
+            <szerzo>Martin Fowler</szerzo>
+            <szerzo>Kent Beck</szerzo>
+        </szerzok>
+    </konyv>
+    <konyv id="k02">
+        <cim>
+            Introduction to Algorithms        
+        </cim>
+        <ev>2009</ev>
+        <kiado>MIT Press</kiado>
+        <szerzok>
+            <szerzo>Thomas H. Cormen</szerzo>
+            <szerzo>Clifford Stein</szerzo>
+            <szerzo>Ronald L. Rivest</szerzo>
+            <szerzo>Charles E. Leiserson</szerzo>
+        </szerzok>
+    </konyv>
+    <konyv id="k03">
+        <cim>
+            Soft Skills: The software developer's life manual        
+        </cim>
+        <ev>2014</ev>
+        <kiado>Manning Publications</kiado>
+        <szerzok>
+            <szerzo>John Sonmez</szerzo>
+        </szerzok>
+    </konyv>
+</konyvek>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT konyvek (konyv+)>
+<!ELEMENT konyv (cim,ev,kiado,szerzok)>
+<!ELEMENT cim (#PCDATA)>
+<!ELEMENT ev (#PCDATA)>
+<!ELEMENT kiado (#PCDATA)>
+<!ELEMENT szerzok (szerzo+)>
+<!ELEMENT szerzo (#PCDATA)>
+<!ATTLIST konyv id ID #REQUIRED>
