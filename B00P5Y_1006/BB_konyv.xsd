@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="konyvek">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="konyv" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cim" type="xs:string"></xs:element>
+                            <xs:element name="ev" type="xs:unsignedShort"></xs:element>
+                            <xs:element name="kiado" type="xs:string"></xs:element>
+                            <xs:element name="szerzo" type="xs:string" maxOccurs="unbounded"></xs:element>
+                            <xs:element name="kivonat" type="xs:string" minOccurs="0"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

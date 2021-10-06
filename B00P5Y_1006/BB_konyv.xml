@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE konyvek SYSTEM "BB_konyv.dtd">
 
-<konyvek>
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BB_konyv.xsd">
     <konyv id="k01">
         <cim>
          Refactoring        
@@ -10,7 +9,7 @@
         <kiado>Addison-Wesley Professional</kiado>
         <szerzo>Martin Fowler</szerzo>
         <szerzo>Kent Beck</szerzo>
-        <kivonat>"Whenever you read Refactoring], it's time to read it again. And if you haven't read it yet, please do before writing another line of code." -David Heinemeier Hansson, Creator of Ruby on Rails, Founder & CTO at Basecamp.</kivonat>
+        <kivonat>"Whenever you read Refactoring], it's time to read it again. And if you haven't read it yet, please do before writing another line of code." -David Heinemeier Hansson, Creator of Ruby on Rails, Founder and CTO at Basecamp.</kivonat>
     </konyv>
     <konyv id="k02">
         <cim>
