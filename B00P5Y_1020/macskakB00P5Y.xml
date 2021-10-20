@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<!DOCTYPE macskak SYSTEM "macskakB00P5Y.dtd"> -->
+
+<!--<macskak>-->
+<macskak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="macskakB00P5Y.xsd">
+    <macska id="m1">
+        <nev>Pihe</nev>
+        <kor>6 hónap</kor>
+        <fajta>Házi macska</fajta>
+    </macska>
+    <macska id="m2">
+        <nev>Cirmi</nev>
+        <kor>3 év</kor>
+        <fajta>Orosz kék</fajta>
+    </macska>
+</macskak>
