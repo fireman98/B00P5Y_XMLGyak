@@ -13,7 +13,7 @@
         <szak>PTI</szak>
     </ora>
 
-    <ora id="xm01t" tipus="gyakorlat">
+    <ora id="xm02t" tipus="gyakorlat">
         <targy>Idegennyelv 1</targy>
         <idopont>
             <nap>Kedd</nap>
@@ -25,7 +25,7 @@
         <szak>PTI</szak>
     </ora>
 
-    <ora id="xmlgy" tipus="gyakorlat">
+    <ora id="xm03t" tipus="gyakorlat">
         <targy>Adatkezelés XML környezetben</targy>
         <idopont>
             <nap>szerda</nap>
