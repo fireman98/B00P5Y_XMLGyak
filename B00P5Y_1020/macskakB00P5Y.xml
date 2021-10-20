@@ -6,12 +6,12 @@
 <macskak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="macskakB00P5Y.xsd">
     <macska id="m1">
         <nev>Pihe</nev>
-        <kor>6 hónap</kor>
+        <kor>0.5</kor>
         <fajta>Házi macska</fajta>
     </macska>
     <macska id="m2">
         <nev>Cirmi</nev>
-        <kor>3 év</kor>
+        <kor>3</kor>
         <fajta>Orosz kék</fajta>
     </macska>
 </macskak>
