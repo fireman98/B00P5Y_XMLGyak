@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE users SYSTEM "usersB00P5Y.dtd">
+<users>
+    <!--<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="usersB00P5Y.xsd">-->
+    <user id="u1" first-name="Bence" last-name="Bujnóczki" profession="programozo"></user>
+    <user id="u2" first-name="Bence" last-name="Másik" profession="programozo"></user>
+
+</users>
