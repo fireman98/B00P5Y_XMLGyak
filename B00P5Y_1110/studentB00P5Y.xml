@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<class>
+    <student id="01">
+        <first-name>Bence</first-name>
+        <last-name>Bujnóczki</last-name>
+        <nick-name>Bence</nick-name>
+        <age>23</age>
+    </student>
+    <student id="02">
+        <first-name>Bence</first-name>
+        <last-name>Bujnóczki</last-name>
+        <nick-name>Bence</nick-name>
+        <age>24</age>
+    </student>
+    <student id="03">
+        <first-name>Bence</first-name>
+        <last-name>Bujnóczki</last-name>
+        <nick-name>Bence</nick-name>
+        <age>16</age>
+    </student>
+
+    <!-- Nincs attribute-ja, tesztelés miatt -->
+    <student>
+        <first-name>Bence</first-name>
+        <last-name>Bujnóczki</last-name>
+        <nick-name>Bence</nick-name>
+        <age>19</age>
+    </student>
+</class>

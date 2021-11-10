@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<users>
+      
+  <!--<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="usersB00P5Y.xsd">-->
+      
+  <user first-name="Bence" id="u1" last-name="Bujnóczki" profession="programozo"/>
+      
+  <user first-name="Bence" id="u2" last-name="Másik" profession="programozo"/>
+  
+</users>
