@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<orarend>
+    <ora id="xm01t" tipus="elmélet">
+        <targy>Adatkezelés XML környezetben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>1200</tol>
+            <ig>1400</ig>
+        </idopont>
+        <helyszin>I/A2 fsz.</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>PTI</szak>
+    </ora>
+
+    <ora id="xm02t" tipus="gyakorlat">
+        <targy>Idegennyelv 1</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>1600</tol>
+            <ig>1800</ig>
+        </idopont>
+        <helyszin>In/202 InA1/ 11 A1 magasfsz. 11</helyszin>
+        <oktato>Dorkó Dóra</oktato>
+        <szak>PTI</szak>
+    </ora>
+
+    <ora id="xm03t" tipus="gyakorlat">
+        <targy>Adatkezelés XML környezetben</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>1000</tol>
+            <ig>1200</ig>
+        </idopont>
+        <helyszin>In/202 In II. em. 202</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>PTI</szak>
+    </ora>
+</orarend>
