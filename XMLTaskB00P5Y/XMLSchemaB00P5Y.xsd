@@ -1,4 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="root"></xs:element>
+    <xs:element name="root">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="allatok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="allat" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nev" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+                                        <xs:element name="nem" type="xs:string"></xs:element>
+                                        <xs:element name="faj">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="orszag" type="xs:string"></xs:element>
+                                                    <xs:element name="torzs" type="xs:string"></xs:element>
+                                                    <xs:element name="osztaly" type="xs:string"></xs:element>
+                                                    <xs:element name="rend" type="xs:string"></xs:element>
+                                                    <xs:element name="csalad" type="xs:string"></xs:element>
+                                                    <xs:element name="faj" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="szuletes-ideje" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="aid" type="xs:string" use="required"></xs:attribute>
+                                    <xs:attribute name="eid" type="xs:string" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="gondozok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="gondozo" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nev" type="xs:string"></xs:element>
+                                        <xs:element name="nem" type="xs:string"></xs:element>
+                                        <xs:element name="fizetes" type="xs:int"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="szemelyi-szam" type="xs:string" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="elohelyek">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="elohely" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="terulet" type="xs:float"></xs:element>
+                                        <xs:element name="tipus" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="eid" type="xs:string" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="gondozasok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="gondozas" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="idopont" type="xs:string"></xs:element>
+                                        <xs:element name="megjegyzes" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="gid" type="xs:string" use="required"></xs:attribute>
+                                    <xs:attribute name="szemelyi-szam" type="xs:string" use="optional"></xs:attribute>
+                                    <xs:attribute name="aid" type="xs:string" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="takaritasok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="takaritas" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="idopont" type="xs:string"></xs:element>
+                                        <xs:element name="megjegyzes" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="tid" type="xs:string" use="required"></xs:attribute>
+                                    <xs:attribute name="eid" type="xs:string" use="required"></xs:attribute>
+                                    <xs:attribute name="szemelyi-szam" type="xs:string" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="gondozok-telefonszamok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="telefonszam" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="telefonszam" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="telid" type="xs:string" use="required"></xs:attribute>
+                                    <xs:attribute name="szemelyi-szam" type="xs:string" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="latogatasok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="latogatas" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tipus"></xs:element>
+                                        <xs:element name="idopont"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="jegyszam" type="xs:string"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="nyitvatartasok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nyitvatartas" minOccurs="12" maxOccurs="12">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nyitas" type="xs:string"></xs:element>
+                                        <xs:element name="zaras" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="honap" type="xs:string" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+
+        <xs:key name="key_allat">
+            <xs:selector xpath="allatok/allat"></xs:selector>
+            <xs:field xpath="@aid"></xs:field>
+        </xs:key>
+        <xs:key name="key_gondozo">
+            <xs:selector xpath="gondozok/gondozo"></xs:selector>
+            <xs:field xpath="@szemelyi-szam"></xs:field>
+        </xs:key>
+        <xs:key name="key_elohely">
+            <xs:selector xpath="elohelyek/elohely"></xs:selector>
+            <xs:field xpath="@eid"></xs:field>
+        </xs:key>
+        <xs:key name="key_gondozas">
+            <xs:selector xpath="gondozasok/gondozas"></xs:selector>
+            <xs:field xpath="@gid"></xs:field>
+        </xs:key>
+        <xs:key name="key_takaritas">
+            <xs:selector xpath="takaritasok/takaritas"></xs:selector>
+            <xs:field xpath="@tid"></xs:field>
+        </xs:key>
+        <xs:key name="key_gondozo-telefonszam">
+            <xs:selector xpath="gondozok-telefonszamok/telefonszam"></xs:selector>
+            <xs:field xpath="@telid"></xs:field>
+        </xs:key>
+        <xs:key name="key_latogatas">
+            <xs:selector xpath="latogatasok/latogatas"></xs:selector>
+            <xs:field xpath="@jegyszam"></xs:field>
+        </xs:key>
+        <xs:key name="key_nyitvatartas">
+            <xs:selector xpath="nyitvatartasok/nyitvatartas"></xs:selector>
+            <xs:field xpath="@honap"></xs:field>
+        </xs:key>
+
+        <xs:keyref name="FK_allat_elohely" refer="key_elohely">
+            <xs:selector xpath="allatok/allat"></xs:selector>
+            <xs:field xpath="@eid"></xs:field>
+        </xs:keyref>
+        <xs:keyref name="FK_gondozas_gondozo" refer="key_gondozo">
+            <xs:selector xpath="gondozasok/gondozas"></xs:selector>
+            <xs:field xpath="@szemelyi-szam"></xs:field>
+        </xs:keyref>
+        <xs:keyref name="FK_gondozas_allat" refer="key_allat">
+            <xs:selector xpath="gondozasok/gondozas"></xs:selector>
+            <xs:field xpath="@aid"></xs:field>
+        </xs:keyref>
+        <xs:keyref name="FK_takaritas_elohely" refer="key_elohely">
+            <xs:selector xpath="takaritasok/takaritas"></xs:selector>
+            <xs:field xpath="@eid"></xs:field>
+        </xs:keyref>
+        <xs:keyref name="FK_takaritas_gondozo" refer="key_gondozo">
+            <xs:selector xpath="takaritasok/takaritas"></xs:selector>
+            <xs:field xpath="@szemelyi-szam"></xs:field>
+        </xs:keyref>
+        <xs:keyref name="FK_gondozok-telefonszamok_gondozo" refer="key_gondozo">
+            <xs:selector xpath="gondozok-telefonszamok/telefonszam"></xs:selector>
+            <xs:field xpath="@szemelyi-szam"></xs:field>
+        </xs:keyref>
+
+    </xs:element>
 </xs:schema>

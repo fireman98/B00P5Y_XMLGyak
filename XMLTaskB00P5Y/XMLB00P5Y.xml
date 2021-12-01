@@ -18,7 +18,7 @@
                 2021.04.20.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-3" eid="e-5">
+        <allat aid="a-2" eid="e-5">
             <nev>Cirmi</nev>
             <nem>Nőstény</nem>
             <faj>
@@ -63,7 +63,7 @@
                 2017.08.30.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-4" eid="e-3">
+        <allat aid="a-5" eid="e-3">
             <nev>Vadóc</nev>
             <nem>Nőstény</nem>
             <faj>
@@ -78,7 +78,7 @@
                 2017.08.30.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-5" eid="e-2">
+        <allat aid="a-6" eid="e-2">
             <nev>Béla</nev>
             <nem>Him</nem>
             <faj>
@@ -93,7 +93,7 @@
                 2016.10.26.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-6" eid="e-2">
+        <allat aid="a-7" eid="e-2">
             <nev>Barnabás</nev>
             <nem>Him</nem>
             <faj>
@@ -108,7 +108,7 @@
                 2016.10.26.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-7" eid="e-2">
+        <allat aid="a-8" eid="e-2">
             <nev>Cecília</nev>
             <nem>Nőstény</nem>
             <faj>
@@ -123,7 +123,7 @@
                 2015.12.03.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-8" eid="e-2">
+        <allat aid="a-9" eid="e-2">
             <nev>Jessica</nev>
             <nem>Nőstény</nem>
             <faj>
@@ -138,7 +138,7 @@
                 2018.01.26.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-9" eid="e-1">
+        <allat aid="a-10" eid="e-1">
             <nev>Totyi</nev>
             <nem>Hím</nem>
             <faj>
@@ -153,7 +153,7 @@
                 2011.05.11.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-10" eid="e-1">
+        <allat aid="a-11" eid="e-1">
             <nev>Tipegő</nev>
             <nem>Hím</nem>
             <faj>
@@ -168,7 +168,7 @@
                 2013.07.11.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-11" eid="e-4">
+        <allat aid="a-12" eid="e-4">
             <nev>Zsolti</nev>
             <nem>Hím</nem>
             <faj>
@@ -183,7 +183,7 @@
                 2015.05.06.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-12" eid="e-4">
+        <allat aid="a-13" eid="e-4">
             <nev>Szandi</nev>
             <nem>Nőstény</nem>
             <faj>
@@ -198,7 +198,7 @@
                 2014.12.05.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-13" eid="e-6">
+        <allat aid="a-14" eid="e-6">
             <nev>Fütyülős</nev>
             <nem>Hím</nem>
             <faj>
@@ -213,7 +213,7 @@
                 2018.03.11.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-14" eid="e-1">
+        <allat aid="a-15" eid="e-1">
             <nem>Nőstény</nem>
             <faj>
                 <orszag>Állatok</orszag>
@@ -227,7 +227,7 @@
                 2019.11.15.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-15" eid="e-6">
+        <allat aid="a-16" eid="e-6">
             <nem>Hím</nem>
             <faj>
                 <orszag>Állatok</orszag>
@@ -241,7 +241,7 @@
                 2019.03.14.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-16" eid="e-6">
+        <allat aid="a-17" eid="e-6">
             <nem>Nőstény</nem>
             <faj>
                 <orszag>Állatok</orszag>
@@ -255,7 +255,7 @@
                 2019.05.31.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-17" eid="e-6">
+        <allat aid="a-18" eid="e-6">
             <nem>Nőstény</nem>
             <faj>
                 <orszag>Állatok</orszag>
@@ -269,7 +269,7 @@
                 2017.03.11.
             </szuletes-ideje>
         </allat>
-        <allat aid="a-18" eid="e-6">
+        <allat aid="a-19" eid="e-6">
             <nem>Nőstény</nem>
             <faj>
                 <orszag>Állatok</orszag>
@@ -338,60 +338,60 @@
         </elohely>
     </elohelyek>
     <gondozasok>
-        <gondozas gid="1" szemelyi-szam="123456BA" aid="a-19">
+        <gondozas gid="g-1" szemelyi-szam="123456BA" aid="a-19">
             <idopont>2019.11.10 08:52</idopont>
             <megjegyzes>Hamar megvolt</megjegyzes>
         </gondozas>
-        <gondozas gid="2" szemelyi-szam="123456BA" aid="a-10">
+        <gondozas gid="g-2" szemelyi-szam="123456BA" aid="a-10">
             <idopont>2019.11.10 08:59</idopont>
         </gondozas>
-        <gondozas gid="3" szemelyi-szam="654321BA" aid="a-7">
+        <gondozas gid="g-3" szemelyi-szam="654321BA" aid="a-7">
             <idopont>2019.11.10 08:53</idopont>
         </gondozas>
-        <gondozas gid="4" szemelyi-szam="654321BA" aid="a-8">
+        <gondozas gid="g-4" szemelyi-szam="654321BA" aid="a-8">
             <idopont>2019.11.10 08:58</idopont>
         </gondozas>
-        <gondozas gid="5" szemelyi-szam="654323BA" aid="a-15">
+        <gondozas gid="g-5" szemelyi-szam="654323BA" aid="a-15">
             <idopont>2019.11.10 09:02</idopont>
         </gondozas>
-        <gondozas gid="6" szemelyi-szam="654323BA" aid="a-5">
+        <gondozas gid="g-6" szemelyi-szam="654323BA" aid="a-5">
             <idopont>2019.11.10 09:05</idopont>
         </gondozas>
-        <gondozas gid="7" szemelyi-szam="654323BA" aid="a-6">
+        <gondozas gid="g-7" szemelyi-szam="654323BA" aid="a-6">
             <idopont>2019.11.10 09:05</idopont>
             <megjegyzes>Ideges volt az állat</megjegyzes>
         </gondozas>
-        <gondozas gid="8" szemelyi-szam="654323BA" aid="a-1">
+        <gondozas gid="g-8" szemelyi-szam="654323BA" aid="a-1">
             <idopont>2019.11.10 09:10</idopont>
         </gondozas>
-        <gondozas gid="9" szemelyi-szam="654323CC" aid="a-2">
+        <gondozas gid="g-9" szemelyi-szam="654323CC" aid="a-2">
             <idopont>2019.11.10 09:15</idopont>
         </gondozas>
-        <gondozas gid="10" szemelyi-szam="654323CC" aid="a-13">
+        <gondozas gid="g-10" szemelyi-szam="654323CC" aid="a-13">
             <idopont>2019.11.10 08:31</idopont>
         </gondozas>
-        <gondozas gid="11" szemelyi-szam="123456BA" aid="a-3">
+        <gondozas gid="g-11" szemelyi-szam="123456BA" aid="a-3">
             <idopont>2019.11.10 08:36</idopont>
         </gondozas>
-        <gondozas gid="12" szemelyi-szam="123456BA" aid="a-4">
+        <gondozas gid="g-12" szemelyi-szam="123456BA" aid="a-4">
             <idopont>2019.11.10 08:39</idopont>
         </gondozas>
     </gondozasok>
     <takaritasok>
-        <takaritas tid="1" eid="1" szemelyi-szam="123456BA">
+        <takaritas tid="t-1" eid="e-1" szemelyi-szam="123456BA">
             <idopont>2019.11.10 09:53</idopont>
         </takaritas>
-        <takaritas tid="2" eid="6" szemelyi-szam="654323BA">
+        <takaritas tid="t-2" eid="e-6" szemelyi-szam="654323BA">
             <idopont>2019.11.10 11:05</idopont>
             <megjegyzes>Eltört a felmoső</megjegyzes>
         </takaritas>
-        <takaritas tid="3" eid="4" szemelyi-szam="654323CC">
+        <takaritas tid="t-3" eid="e-4" szemelyi-szam="654323CC">
             <idopont>2019.11.10 10:58</idopont>
         </takaritas>
-        <takaritas tid="4" eid="2" szemelyi-szam="654323CC">
+        <takaritas tid="t-4" eid="e-2" szemelyi-szam="654323CC">
             <idopont>2019.11.10 10:09</idopont>
         </takaritas>
-        <takaritas tid="5" eid="3" szemelyi-szam="654323CC">
+        <takaritas tid="t-5" eid="e-3" szemelyi-szam="654323CC">
             <idopont>2019.11.11 10:00</idopont>
         </takaritas>
     </takaritasok>
