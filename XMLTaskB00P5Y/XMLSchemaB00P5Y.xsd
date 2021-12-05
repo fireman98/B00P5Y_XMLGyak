@@ -10,7 +10,7 @@
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="nev" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
-                                        <xs:element name="nem" type="xs:string"></xs:element>
+                                        <xs:element name="nem" type="allatNem"></xs:element>
                                         <xs:element name="faj">
                                             <xs:complexType>
                                                 <xs:sequence>
@@ -23,7 +23,7 @@
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="szuletes-ideje" type="xs:string"></xs:element>
+                                        <xs:element name="szuletes-ideje" type="xs:date"></xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="aid" type="xs:string" use="required"></xs:attribute>
                                     <xs:attribute name="eid" type="xs:string" use="required"></xs:attribute>
@@ -39,10 +39,10 @@
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="nev" type="xs:string"></xs:element>
-                                        <xs:element name="nem" type="xs:string"></xs:element>
+                                        <xs:element name="nem" type="nem"></xs:element>
                                         <xs:element name="fizetes" type="xs:int"></xs:element>
                                     </xs:sequence>
-                                    <xs:attribute name="szemelyi-szam" type="xs:string" use="required"></xs:attribute>
+                                    <xs:attribute name="szemelyi-szam" type="szemelyiSzam" use="required"></xs:attribute>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -55,7 +55,7 @@
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="terulet" type="xs:float"></xs:element>
-                                        <xs:element name="tipus" type="xs:string"></xs:element>
+                                        <xs:element name="tipus" type="elohelyTipus"></xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="eid" type="xs:string" use="required"></xs:attribute>
                                 </xs:complexType>
@@ -69,11 +69,11 @@
                             <xs:element name="gondozas" minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="idopont" type="xs:string"></xs:element>
+                                        <xs:element name="idopont" type="xs:dateTime"></xs:element>
                                         <xs:element name="megjegyzes" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="gid" type="xs:string" use="required"></xs:attribute>
-                                    <xs:attribute name="szemelyi-szam" type="xs:string" use="optional"></xs:attribute>
+                                    <xs:attribute name="szemelyi-szam" type="szemelyiSzam" use="optional"></xs:attribute>
                                     <xs:attribute name="aid" type="xs:string" use="required"></xs:attribute>
                                 </xs:complexType>
                             </xs:element>
@@ -86,12 +86,12 @@
                             <xs:element name="takaritas" minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="idopont" type="xs:string"></xs:element>
+                                        <xs:element name="idopont" type="xs:dateTime"></xs:element>
                                         <xs:element name="megjegyzes" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="tid" type="xs:string" use="required"></xs:attribute>
                                     <xs:attribute name="eid" type="xs:string" use="required"></xs:attribute>
-                                    <xs:attribute name="szemelyi-szam" type="xs:string" use="required"></xs:attribute>
+                                    <xs:attribute name="szemelyi-szam" type="szemelyiSzam" use="required"></xs:attribute>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -103,10 +103,10 @@
                             <xs:element name="telefonszam" minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="telefonszam" type="xs:string"></xs:element>
+                                        <xs:element name="telefonszam" type="hungarianPhoneNumber"></xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="telid" type="xs:string" use="required"></xs:attribute>
-                                    <xs:attribute name="szemelyi-szam" type="xs:string" use="required"></xs:attribute>
+                                    <xs:attribute name="szemelyi-szam" type="szemelyiSzam" use="required"></xs:attribute>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -133,10 +133,10 @@
                             <xs:element name="nyitvatartas" minOccurs="12" maxOccurs="12">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="nyitas" type="xs:string"></xs:element>
-                                        <xs:element name="zaras" type="xs:string"></xs:element>
+                                        <xs:element name="nyitas" type="xs:time"></xs:element>
+                                        <xs:element name="zaras" type="xs:time"></xs:element>
                                     </xs:sequence>
-                                    <xs:attribute name="honap" type="xs:string" use="required"></xs:attribute>
+                                    <xs:attribute name="honap" type="honap" use="required"></xs:attribute>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -204,4 +204,48 @@
         </xs:keyref>
 
     </xs:element>
+
+    <xs:simpleType name="hungarianPhoneNumber">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(06){1}(20|30|70){1}[0-9]{7}"></xs:pattern>
+            <xs:pattern value="(\+36){1}(20|30|70){1}[0-9]{7}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="elohelyTipus">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Sarkvidéki"></xs:pattern>
+            <xs:pattern value="Erdős"></xs:pattern>
+            <xs:pattern value="Madárketrec"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="nem">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Nő"></xs:pattern>
+            <xs:pattern value="Férfi"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="allatNem">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Hím"></xs:pattern>
+            <xs:pattern value="Nőstény"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="szemelyiSzam">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{2}[0-9]{6}"></xs:pattern>
+            <xs:pattern value="[0-9]{6}[A-Z]{2}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="honap">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:maxInclusive value="12"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
 </xs:schema>
