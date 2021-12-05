@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaB00P5Y.xsd">
+        
+    <allatok>
+                
+        <allat aid="a-1" eid="e-5">
+                        
+            <nev>PiheCica</nev>
+                        
+            <nem>Hím</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Emlősök</osztaly>
+                                
+                <rend>Ragadozók</rend>
+                                
+                <csalad>Macskafélék</csalad>
+                                
+                <faj>Vadmacska</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2021-04-20
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-2" eid="e-5">
+                        
+            <nev>Cirmi</nev>
+                        
+            <nem>Nőstény</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Emlősök</osztaly>
+                                
+                <rend>Ragadozók</rend>
+                                
+                <csalad>Macskafélék</csalad>
+                                
+                <faj>Vadmacska</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2021-08-19
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-3" eid="e-3">
+                        
+            <nev>Füles</nev>
+                        
+            <nem>Hím</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Emlősök</osztaly>
+                                
+                <rend>Ragadozók</rend>
+                                
+                <csalad>Kutyafélék</csalad>
+                                
+                <faj>Farkas</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2016-05-11
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-4" eid="e-3">
+                        
+            <nev>Vadóc</nev>
+                        
+            <nem>Nőstény</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Emlősök</osztaly>
+                                
+                <rend>Ragadozók</rend>
+                                
+                <csalad>Kutyafélék</csalad>
+                                
+                <faj>Farkas</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2017-08-30
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-5" eid="e-3">
+                        
+            <nev>Vadóc</nev>
+                        
+            <nem>Nőstény</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Emlősök</osztaly>
+                                
+                <rend>Ragadozók</rend>
+                                
+                <csalad>Kutyafélék</csalad>
+                                
+                <faj>Farkas</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2017-08-30
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-6" eid="e-2">
+                        
+            <nev>Béla</nev>
+                        
+            <nem>Hím</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Emlősök</osztaly>
+                                
+                <rend>Párosujjú patások</rend>
+                                
+                <csalad>Disznófélék</csalad>
+                                
+                <faj>Vaddisznó</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2016-10-26
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-7" eid="e-2">
+                        
+            <nev>Barnabás</nev>
+                        
+            <nem>Hím</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Emlősök</osztaly>
+                                
+                <rend>Párosujjú patások</rend>
+                                
+                <csalad>Disznófélék</csalad>
+                                
+                <faj>Vaddisznó</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>2016-10-26</szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-8" eid="e-2">
+                        
+            <nev>Cecília</nev>
+                        
+            <nem>Nőstény</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Emlősök</osztaly>
+                                
+                <rend>Párosujjú patások</rend>
+                                
+                <csalad>Disznófélék</csalad>
+                                
+                <faj>Vaddisznó</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>2015-12-03</szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-9" eid="e-2">
+                        
+            <nev>Jessica</nev>
+                        
+            <nem>Nőstény</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Emlősök</osztaly>
+                                
+                <rend>Párosujjú patások</rend>
+                                
+                <csalad>Disznófélék</csalad>
+                                
+                <faj>Vaddisznó</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2018-01-26
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-10" eid="e-1">
+                        
+            <nev>Totyi</nev>
+                        
+            <nem>Hím</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Madarak</osztaly>
+                                
+                <rend>Pingvinalakúak</rend>
+                                
+                <csalad>Pingvinfélék</csalad>
+                                
+                <faj>Császárpingvin</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2011-05-11
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-11" eid="e-1">
+                        
+            <nev>Tipegő</nev>
+                        
+            <nem>Hím</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Madarak</osztaly>
+                                
+                <rend>Pingvinalakúak</rend>
+                                
+                <csalad>Pingvinfélék</csalad>
+                                
+                <faj>Császárpingvin</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2013-07-11
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-12" eid="e-4">
+                        
+            <nev>Zsolti</nev>
+                        
+            <nem>Hím</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Madarak</osztaly>
+                                
+                <rend>Pingvinalakúak</rend>
+                                
+                <csalad>Úszólábúak</csalad>
+                                
+                <faj>Fóka</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2015-05-06
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-13" eid="e-4">
+                        
+            <nev>Szandi</nev>
+                        
+            <nem>Nőstény</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Madarak</osztaly>
+                                
+                <rend>Pingvinalakúak</rend>
+                                
+                <csalad>Úszólábúak</csalad>
+                                
+                <faj>Fóka</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2014-12-05
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-14" eid="e-6">
+                        
+            <nev>Fütyülős</nev>
+                        
+            <nem>Hím</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Madarak</osztaly>
+                                
+                <rend>Lúdalakúak</rend>
+                                
+                <csalad>Récefélék</csalad>
+                                
+                <faj>Tőkés réce</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2018-03-11
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-15" eid="e-1">
+                        
+            <nem>Nőstény</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Madarak</osztaly>
+                                
+                <rend>Pingvinalakúak</rend>
+                                
+                <csalad>Pingvinfélék</csalad>
+                                
+                <faj>Császárpingvin</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2019-11-15
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-16" eid="e-6">
+                        
+            <nem>Hím</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Madarak</osztaly>
+                                
+                <rend>Lúdalakúak</rend>
+                                
+                <csalad>Récefélék</csalad>
+                                
+                <faj>Tőkés réce</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2019-03-14
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-17" eid="e-6">
+                        
+            <nem>Nőstény</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Madarak</osztaly>
+                                
+                <rend>Lúdalakúak</rend>
+                                
+                <csalad>Récefélék</csalad>
+                                
+                <faj>Tőkés réce</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2019-05-31
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-18" eid="e-6">
+                        
+            <nem>Nőstény</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Madarak</osztaly>
+                                
+                <rend>Lúdalakúak</rend>
+                                
+                <csalad>Récefélék</csalad>
+                                
+                <faj>Tőkés réce</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2017-03-11
+            </szuletes-ideje>
+                    
+        </allat>
+                
+        <allat aid="a-19" eid="e-6">
+                        
+            <nem>Nőstény</nem>
+                        
+            <faj>
+                                
+                <orszag>Állatok</orszag>
+                                
+                <torzs>Gerinchúrosok</torzs>
+                                
+                <osztaly>Madarak</osztaly>
+                                
+                <rend>Lúdalakúak</rend>
+                                
+                <csalad>Récefélék</csalad>
+                                
+                <faj>Tőkés réce</faj>
+                            
+            </faj>
+                        
+            <szuletes-ideje>
+                2016-03-20
+            </szuletes-ideje>
+                    
+        </allat>
+            
+    </allatok>
+        
+    <gondozok>
+                
+        <gondozo szemelyi-szam="123456AA">
+                        
+            <nev>Dolgos Jóska</nev>
+                        
+            <nem>Férfi</nem>
+                        
+            <fizetes>150000</fizetes>
+                    
+        </gondozo>
+                
+        <gondozo szemelyi-szam="123456BA">
+                        
+            <nev>Radó Fülöp</nev>
+                        
+            <nem>Férfi</nem>
+                        
+            <fizetes>140000</fizetes>
+                    
+        </gondozo>
+                
+        <gondozo szemelyi-szam="654321BA">
+                        
+            <nev>Nyers Gabriella</nev>
+                        
+            <nem>Nő</nem>
+                        
+            <fizetes>140000</fizetes>
+                    
+        </gondozo>
+                
+        <gondozo szemelyi-szam="654323BA">
+                        
+            <nev>Süveges Krisztina</nev>
+                        
+            <nem>Nő</nem>
+                        
+            <fizetes>160000</fizetes>
+                    
+        </gondozo>
+                
+        <gondozo szemelyi-szam="654323CC">
+                        
+            <nev>Levél Gábor</nev>
+                        
+            <nem>Férfi</nem>
+                        
+            <fizetes>180000</fizetes>
+                    
+        </gondozo>
+            
+    </gondozok>
+        
+    <elohelyek>
+                
+        <elohely eid="e-1">
+                        
+            <terulet>13</terulet>
+                        
+            <tipus>Sarkvidéki</tipus>
+                    
+        </elohely>
+                
+        <elohely eid="e-2">
+                        
+            <terulet>30</terulet>
+                        
+            <tipus>Erdős</tipus>
+                    
+        </elohely>
+                
+        <elohely eid="e-3">
+                        
+            <terulet>32</terulet>
+                        
+            <tipus>Erdős</tipus>
+                    
+        </elohely>
+                
+        <elohely eid="e-4">
+                        
+            <terulet>20</terulet>
+                        
+            <tipus>Sarkvidéki</tipus>
+                    
+        </elohely>
+                
+        <elohely eid="e-5">
+                        
+            <terulet>10</terulet>
+                        
+            <tipus>Erdős</tipus>
+                    
+        </elohely>
+                
+        <elohely eid="e-6">
+                        
+            <terulet>8</terulet>
+                        
+            <tipus>Madárketrec</tipus>
+                    
+        </elohely>
+            
+        <elohely eid="e-61">
+            <terulet>25.2</terulet>
+            <tipus>Erdős</tipus>
+        </elohely>
+    </elohelyek>
+        
+    <gondozasok>
+                
+        <gondozas aid="a-19" gid="g-1" szemelyi-szam="123456BA">
+                        
+            <idopont>2019-11-10T08:52:00</idopont>
+                        
+            <megjegyzes>Hamar megvolt</megjegyzes>
+                    
+        </gondozas>
+                
+        <gondozas aid="a-10" gid="g-2" szemelyi-szam="123456BA">
+                        
+            <idopont>2019-11-10T08:59:00</idopont>
+                    
+        </gondozas>
+                
+        <gondozas aid="a-7" gid="g-3" szemelyi-szam="654321BA">
+                        
+            <idopont>2019-11-10T08:53:00</idopont>
+                    
+        </gondozas>
+                
+        <gondozas aid="a-8" gid="g-4" szemelyi-szam="654321BA">
+                        
+            <idopont>2019-11-10T08:58:00</idopont>
+                    
+        </gondozas>
+                
+        <gondozas aid="a-15" gid="g-5" szemelyi-szam="654323BA">
+                        
+            <idopont>2019-11-10T09:02:00</idopont>
+                    
+        </gondozas>
+                
+        <gondozas aid="a-5" gid="g-6" szemelyi-szam="654323BA">
+                        
+            <idopont>2019-11-10T09:05:00</idopont>
+                    
+        </gondozas>
+                
+        <gondozas aid="a-6" gid="g-7" szemelyi-szam="654323BA">
+                        
+            <idopont>2019-11-10T09:05:00</idopont>
+                        
+            <megjegyzes>Ideges volt az állat</megjegyzes>
+                    
+        </gondozas>
+                
+        <gondozas aid="a-1" gid="g-8" szemelyi-szam="654323BA">
+                        
+            <idopont>2019-11-10T09:10:00</idopont>
+                    
+        </gondozas>
+                
+        <gondozas aid="a-2" gid="g-9" szemelyi-szam="654323CC">
+                        
+            <idopont>2019-11-10T09:15:00</idopont>
+                    
+        </gondozas>
+                
+        <gondozas aid="a-13" gid="g-10" szemelyi-szam="654323CC">
+                        
+            <idopont>2019-11-10T08:31:00</idopont>
+                    
+        </gondozas>
+                
+        <gondozas aid="a-3" gid="g-11" szemelyi-szam="123456BA">
+                        
+            <idopont>2019-11-10T08:36:00</idopont>
+                    
+            <megjegyzes>Nagyon rossz volt az állat!!</megjegyzes>
+        </gondozas>
+                
+        <gondozas aid="a-4" gid="g-12" szemelyi-szam="123456BA">
+                        
+            <idopont>2019-11-10T08:39:00</idopont>
+                    
+        </gondozas>
+            
+    </gondozasok>
+        
+    <takaritasok>
+                
+        <takaritas eid="e-1" szemelyi-szam="123456BA" tid="t-1">
+                        
+            <idopont>2019-11-10T09:53:00</idopont>
+                    
+        </takaritas>
+                
+        <takaritas eid="e-6" szemelyi-szam="654323BA" tid="t-2">
+                        
+            <idopont>2019-11-10T11:05:00</idopont>
+                        
+            <megjegyzes>Eltört a felmoső</megjegyzes>
+                    
+        </takaritas>
+                
+        <takaritas eid="e-4" szemelyi-szam="654323CC" tid="t-3">
+                        
+            <idopont>2019-11-10T10:58:00</idopont>
+                    
+        </takaritas>
+                
+        <takaritas eid="e-2" szemelyi-szam="654323CC" tid="t-4">
+                        
+            <idopont>2019-11-10T10:09:00</idopont>
+                    
+        </takaritas>
+                
+        <takaritas eid="e-3" szemelyi-szam="654323CC" tid="t-5">
+                        
+            <idopont>2019-11-11T10:00:00</idopont>
+                    
+        </takaritas>
+            
+    </takaritasok>
+        
+    <gondozok-telefonszamok>
+                
+        <telefonszam szemelyi-szam="123456BA" telid="1">
+                        
+            <telefonszam>06202825457</telefonszam>
+                    
+        </telefonszam>
+                
+        <telefonszam szemelyi-szam="123456AA" telid="2">
+                        
+            <telefonszam>+36201234567</telefonszam>
+                    
+        </telefonszam>
+                
+        <telefonszam szemelyi-szam="654321BA" telid="3">
+                        
+            <telefonszam>06705555555</telefonszam>
+                    
+        </telefonszam>
+                
+        <telefonszam szemelyi-szam="654323BA" telid="4">
+                        
+            <telefonszam>06301880254</telefonszam>
+                    
+        </telefonszam>
+                
+        <telefonszam szemelyi-szam="654323CC" telid="5">
+                        
+            <telefonszam>06705750215</telefonszam>
+                    
+        </telefonszam>
+                
+        <telefonszam szemelyi-szam="654323CC" telid="6">
+                        
+            <telefonszam>+36207550760</telefonszam>
+                    
+        </telefonszam>
+            
+    </gondozok-telefonszamok>
+        
+    <latogatasok>
+                
+        <latogatas jegyszam="j-1">
+                        
+            <tipus>Normál</tipus>
+                        
+            <idopont>2019.11.10. 12:51</idopont>
+                    
+        </latogatas>
+                
+        <latogatas jegyszam="j-2">
+                        
+            <tipus>Normál</tipus>
+                        
+            <idopont>2019.11.10. 14:50</idopont>
+                    
+        </latogatas>
+                
+        <latogatas jegyszam="j-3">
+                        
+            <tipus>Nyugdíjas</tipus>
+                        
+            <idopont>2019.11.11. 11:11</idopont>
+                    
+        </latogatas>
+                
+        <latogatas jegyszam="j-4">
+                        
+            <tipus>Diák</tipus>
+                        
+            <idopont>2019.11.11. 13:01</idopont>
+                    
+        </latogatas>
+                
+        <latogatas jegyszam="j-5">
+                        
+            <tipus>Normál</tipus>
+                        
+            <idopont>2019.11.12. 10:51</idopont>
+                    
+        </latogatas>
+                
+        <latogatas jegyszam="j-6">
+                        
+            <tipus>Normál</tipus>
+                        
+            <idopont>2019.11.12. 10:21</idopont>
+                    
+        </latogatas>
+            
+    </latogatasok>
+        
+    <nyitvatartasok>
+                
+        <nyitvatartas honap="1">
+                        
+            <nyitas>10:00:00</nyitas>
+                        
+            <zaras>17:00:00</zaras>
+                    
+        </nyitvatartas>
+                
+        <nyitvatartas honap="2">
+                        
+            <nyitas>10:00:00</nyitas>
+                        
+            <zaras>17:00:00</zaras>
+                    
+        </nyitvatartas>
+                
+        <nyitvatartas honap="3">
+                        
+            <nyitas>09:00:00</nyitas>
+                        
+            <zaras>17:00:00</zaras>
+                    
+        </nyitvatartas>
+                
+        <nyitvatartas honap="4">
+                        
+            <nyitas>09:00:00</nyitas>
+                        
+            <zaras>18:00:00</zaras>
+                    
+        </nyitvatartas>
+                
+        <nyitvatartas honap="5">
+                        
+            <nyitas>08:00:00</nyitas>
+                        
+            <zaras>18:00:00</zaras>
+                    
+        </nyitvatartas>
+                
+        <nyitvatartas honap="6">
+                        
+            <nyitas>08:00:00</nyitas>
+                        
+            <zaras>18:00:00</zaras>
+                    
+        </nyitvatartas>
+                
+        <nyitvatartas honap="7">
+                        
+            <nyitas>08:00:00</nyitas>
+                        
+            <zaras>19:00:00</zaras>
+                    
+        </nyitvatartas>
+                
+        <nyitvatartas honap="8">
+                        
+            <nyitas>08:00:00</nyitas>
+                        
+            <zaras>19:00:00</zaras>
+                    
+        </nyitvatartas>
+                
+        <nyitvatartas honap="9">
+                        
+            <nyitas>08:00:00</nyitas>
+                        
+            <zaras>18:00:00</zaras>
+                    
+        </nyitvatartas>
+                
+        <nyitvatartas honap="10">
+                        
+            <nyitas>09:00:00</nyitas>
+                        
+            <zaras>18:00:00</zaras>
+                    
+        </nyitvatartas>
+                
+        <nyitvatartas honap="11">
+                        
+            <nyitas>09:00:00</nyitas>
+                        
+            <zaras>17:00:00</zaras>
+                    
+        </nyitvatartas>
+                
+        <nyitvatartas honap="12">
+                        
+            <nyitas>10:00:00</nyitas>
+                        
+            <zaras>17:00:00</zaras>
+                    
+        </nyitvatartas>
+            
+    </nyitvatartasok>
+    
+</root>
