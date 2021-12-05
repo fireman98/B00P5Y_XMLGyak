@@ -36,7 +36,7 @@ public class DOMReadB00P5Y {
      * 
      * @param n
      */
-    private static void printNodeRecurse(Node n) {
+    public static void printNodeRecurse(Node n) {
         printNodeRecurse(n, 0);
     }
 
@@ -47,7 +47,7 @@ public class DOMReadB00P5Y {
      * @param n     - node
      * @param depth - recursive depth
      */
-    private static void printNodeRecurse(Node n, int depth) {
+    public static void printNodeRecurse(Node n, int depth) {
         // Determine node name, attributes and child nodes
         String nodeName = n.getNodeName();
         NamedNodeMap nodeAttributes = n.getAttributes();

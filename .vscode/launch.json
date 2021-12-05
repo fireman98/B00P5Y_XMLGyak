@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DOMQueryB00P5Y",
+            "request": "launch",
+            "mainClass": "XMLTaskB00P5Y.DOMParseB00P5Y.hu.domparse.B00P5Y.DOMQueryB00P5Y",
+            "projectName": "xml_gyak_1ab9e43a"
+        },
+        {
+            "type": "java",
             "name": "Launch DOMReadB00P5Y",
             "request": "launch",
             "mainClass": "XMLTaskB00P5Y.DOMParseB00P5Y.hu.domparse.B00P5Y.DOMReadB00P5Y",
