@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BB_nevjegykartya.xsd">
+    <nevjegykartya>
+        <nev>Bujnóczki Bence</nev>
+        <ceg>
+            <nev>Cég 1</nev>
+            <cim>
+                <iranyitoszam>1234</iranyitoszam>
+                <varos>Miskolc</varos>
+                <utca>Első Utca</utca>
+                <hazszam>1</hazszam>
+            </cim>
+            <telefonszam>+36301234567</telefonszam>
+            <weblap>www.ceg1.hu</weblap>
+        </ceg>
+        <beosztas>vezető</beosztas>
+        <telefonszam>+36301234567</telefonszam>
+        <email>email@cim.hu</email>
+    </nevjegykartya>
+    <nevjegykartya>
+        <nev>Vezetéknév Keresztnév</nev>
+        <ceg>
+            <nev>Cég2</nev>
+            <cim>
+                <iranyitoszam>1234</iranyitoszam>
+                <varos>Miskolc</varos>
+                <utca>Első utca</utca>
+                <hazszam>2</hazszam>
+            </cim>
+            <telefonszam>+36301234567</telefonszam>
+            <weblap>www.ceg2.hu</weblap>
+        </ceg>
+        <beosztas>Gyakornok</beosztas>
+        <telefonszam>+36301234568</telefonszam>
+        <email>email2@cim.hu</email>
+    </nevjegykartya>
+</nevjegykartyak>
