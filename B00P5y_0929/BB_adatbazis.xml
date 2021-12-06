@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE adatbazis SYSTEM "BB_adatbazis.dtd">
+
+<adatbazis>
+    <dolgozo kod="k-1">
+        <nev>Név</nev>
+        <fizetes>20000</fizetes>
+    </dolgozo>
+    <dolgozo kod="k-2">
+        <nev>Dolgozó2</nev>
+        <fizetes>30000</fizetes>
+    </dolgozo>
+
+</adatbazis>
