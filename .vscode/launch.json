@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch XsdValidation",
+            "request": "launch",
+            "mainClass": "B00P5Y_1020.XsdValidation",
+            "projectName": "xml_gyak_1ab9e43a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SaxB00P5Y",
+            "request": "launch",
+            "mainClass": "B00P5Y_1020.SaxB00P5Y",
+            "projectName": "xml_gyak_1ab9e43a"
+        },
+        {
+            "type": "java",
             "name": "Launch DOMModifyB00P5Y",
             "request": "launch",
             "mainClass": "XMLTaskB00P5Y.DOMParseB00P5Y.hu.domparse.B00P5Y.DOMModifyB00P5Y",
