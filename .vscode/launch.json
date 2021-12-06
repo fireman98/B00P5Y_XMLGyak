@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DomQueryB00P5Y",
+            "request": "launch",
+            "mainClass": "B00P5Y_1027.domB00P5Y1027.DomQueryB00P5Y",
+            "projectName": "xml_gyak_1ab9e43a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DomModifyB00P5Y",
+            "request": "launch",
+            "mainClass": "B00P5Y_1027.domB00P5Y1027.DomModifyB00P5Y",
+            "projectName": "xml_gyak_1ab9e43a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DomReadB00P5Y",
+            "request": "launch",
+            "mainClass": "B00P5Y_1027.domB00P5Y1027.DomReadB00P5Y",
+            "projectName": "xml_gyak_1ab9e43a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DomWriteB00P5Y",
+            "request": "launch",
+            "mainClass": "B00P5Y_1027.domB00P5Y1027.DomWriteB00P5Y",
+            "projectName": "xml_gyak_1ab9e43a"
+        },
+        {
+            "type": "java",
             "name": "Launch XsdValidation",
             "request": "launch",
             "mainClass": "B00P5Y_1020.XsdValidation",
