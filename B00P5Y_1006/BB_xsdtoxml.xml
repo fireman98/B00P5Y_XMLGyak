@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BB_ertoxsd.xsd">
+    <A a="a1">
+        <b>
+            <x>X1</x>
+            <y>Y1</y>
+        </b>
+        <Ac>
+            <d>D1</d>
+            <e>E1</e>
+        </Ac>
+    </A>
+    <B a="a2">
+        <b>
+            <x>X2</x>
+            <y>Y2</y>
+        </b>
+    </B>
+    <C a="a3">
+        <Cb>Cb</Cb>
+    </C>
+    <RelAB Aid="a1" Bid="a2">
+        <c>C1</c>
+    </RelAB>
+    <RelBC Bid="a2" Cid="a3" />
+</root>
