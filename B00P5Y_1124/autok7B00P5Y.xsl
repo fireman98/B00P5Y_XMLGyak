@@ -5,7 +5,7 @@
         <html>
             <head></head>
             <body>
-                <h2>autokB00P5Y1</h2>
+                <h2>autok7B00P5Y</h2>
                 <table border="1" cellpadding="5px">
                     <tr bgcolor="#9acd32">
                         <th>Rendszám</th>
